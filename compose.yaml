@@ -13,7 +13,7 @@ services:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
     ports:
-      - "5432:5432" # PostgreSQL port
+      - "5433:5432" # PostgreSQL port
   rabbitmq:
     image: rabbitmq:3-management
     container_name: rabbitmq_broker
